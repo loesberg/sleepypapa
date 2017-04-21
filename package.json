@@ -1,0 +1,26 @@
+{
+  "name": "degeneratekitchen",
+  "version": "1.0.0",
+  "description": "package file for Degenerate Kitchen WP theme",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/loesberg/sleepypapa.git"
+  },
+  "author": "Jesse Loesberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loesberg/sleepypapa/issues"
+  },
+  "homepage": "https://github.com/loesberg/sleepypapa#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

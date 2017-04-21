@@ -1,0 +1,44 @@
+
+img {
+	max-width: 100%;
+	height: auto !important;
+	border: 1px solid gray;	
+}
+
+img, .alignleft, .alignright, .aligncenter, .alignnone {
+	display: block;
+	margin: 15px auto;	
+	max-width: 100%;
+	height: auto !important;
+}
+
+.wp-caption img {
+	margin-bottom: 4px;
+}
+
+.wp-caption-text {
+	text-align: center;
+    font-size: 0.95rem;
+    margin: 6px 0 0 0;
+}
+
+.comment-author img {
+	float: left;
+	margin: 0 8px 8px 0;
+}
+
+
+@media only screen and
+(min-width: 750px) {
+	
+	.alignright {
+		float: right;
+		margin: 0 0 10px 30px;
+	}
+	
+	.alignleft {
+		float: left;
+		margin: 0 26px 7px 0;
+	}
+	
+}
